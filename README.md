@@ -1,2 +1,2 @@
 # itd-210
-websites
+This is where I will be learning html, css, and javascript.

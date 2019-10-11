@@ -6,8 +6,9 @@
 <h1>
 <ul>
 <li>
-<a href>
+<a>
 <img>
+<src>
 <alt>
 <ol>
 <p>
@@ -18,3 +19,9 @@
 <dd>
 <div>
 <b>
+<tr>
+<table>
+<td>
+<th>
+<br>
+<hr>

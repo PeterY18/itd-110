@@ -22,7 +22,8 @@ p, pre {
     border: 2px dotted #000;
 }
 .second {
-    bacground-color: #CF0
+    background-color: #CF9;
+    border: 2px dotted #880;
 }
 #first {
     color: #373;
@@ -30,11 +31,22 @@ p, pre {
 #second {
     color: #040;
 }
+a:link, a:visited {
+    font-weight: blod;
+    color: #000;
+    text-decoratin: none;
+}
+a:hove, a:active {
+    color: #FF0;
+}
+a:active {
+    font-size: xx-large;
+}
 </style>
 <body>
 <h1>Block-level Elements</h1>
-<h2>Text in a Preformatted Element</h2>
-<pre>This             text
+<h2 id="first">Text in a Preformatted Element</h2>
+<pre class="first">This             text
 
         spans              several
    lines
@@ -44,7 +56,7 @@ p, pre {
 
 whitespace.</pre>
 <p>I see the pre tag keeps the white space<p>
-<h2>Same Text in a Paragraph Element</h2>
+<h2 id="second">Same Text in a Paragraph Element</h2>
 <p>This             text
 
         spans              several
@@ -55,7 +67,7 @@ whitespace.</pre>
 
   whitespace.</p>
 <p>The paragraph tag removes the white space</p>
-<div>
+<div class="second">
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis massa non neque fringilla, non tristique enim convallis. Nunc varius justo eget orci mattis consectetur. Nunc dignissim enim et urna egestas, in pulvinar orci cursus. Fusce at urna non diam porta gravida at non leo. Vestibulum ac consequat magna. Etiam sit amet porta turpis. Nunc eu enim aliquet neque varius accumsan. Quisque sagittis metus nec ex posuere, vel mollis diam facilisis. Nunc non aliquam lacus, at posuere lacus. Ut elementum volutpat nunc a ultricies.
 </p>

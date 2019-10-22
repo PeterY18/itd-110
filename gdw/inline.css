@@ -1,0 +1,55 @@
+body {
+    background-color: #FFE4C4;
+    margin: 40px;
+} 
+section { 
+    background-color: #FFF8DC;
+    padding: 20px;
+}
+h1, footer { 
+    text-align: center;
+}
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+b {
+    color: #800000;
+}
+strong {
+    color: #D2691E;
+}
+q {
+    color: #00F;
+    background-color: #F00
+}
+em {
+    color: #0578BA;
+    text-decoration: underline;
+}
+i {
+    color: #088FDE;
+    text-decoration: underline;
+}
+code {
+    color: #0F0;
+    background-color: #000;
+}
+kbd { 
+    background-color: #BD9B54;
+    text-decoration: underline overline;
+}
+sup {
+    background-color: #DCD608;
+}
+sub { 
+    background-color: #7422C3;
+    color: #FFF;
+}
+/* classes must be in the html file, not the css file!
+.nice {
+    padding: 2px;
+    border: 3px dotted #1B0333;
+}
+*/
+

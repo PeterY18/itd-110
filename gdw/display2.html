@@ -2,26 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>CSS Display Properties I</title>
+<title>CSS Display Properties II</title>
 <style>
 h1 {
     text-align: center;
     color: #338;
-}
-ul {
-    text-align: center;
-}
-li {
-    display: inline;
-    text-align: center;
-    border: 0.1vw solid #00F;
-    width: 12vw;
-    height: 4vw;
-    border-radius: 25px;
-    background-color: #99F;
-    color: #00F;
-    margin: 10px;
-    padding: 10px;
 }
 footer {
     text-align: center;
@@ -30,18 +15,37 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+td {
+    width: 360px;
+    height: 360px;
+}
+td#box1 {
+    background-color: #F00;
+}
+td#box2 {
+    background-color: #0F0;
+    display: none with visiblility: hidden;
+}
+td#box3 {
+    background-color: #00F;
+}
 </style>
 </head>
 <body>
-<h1>CSS Display Properties I</h1>
+<h1>CSS Display Properties II</h1>
 
-<ul>
-  <li>Menu Item 1</li>
-  <li>Menu Item 2</li>
-  <li>Menu Item 3</li>
-  <li>Menu Item 4</li>
-  <li>Menu Item 5</li>
-</ul>
+<table>
+<tr>
+  <td id="box1"></td>
+  <td id="box2"></td>
+  <td id="box3"></td>
+</tr>
+</table>
 
 <footer>
 <hr>

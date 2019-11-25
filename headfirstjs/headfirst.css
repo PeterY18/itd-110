@@ -28,4 +28,19 @@ a:hover {
 a:active {
     font-size: 14px;
 }
+dt {
+    color: #88c0d0;
+    padding: 5px;
+}
 
+
+
+.function { 
+    color: #b48ead;
+}
+.conditional {
+    color: #a3be8c;
+}
+.execute {
+    color: #ebcb8b;
+}

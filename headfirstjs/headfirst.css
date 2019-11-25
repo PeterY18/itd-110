@@ -8,7 +8,8 @@ div {
 }
 h1 {
     text-align: center;
-    color: #eceff4;
+    /*color: #eceff4;*/
+    color: #5e81ac;
 }
 h2, h3 {
     color: #5e81ac;

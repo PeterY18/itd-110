@@ -39,9 +39,18 @@ dt {
 .function { 
     color: #b48ead;
 }
+.function2 {
+    color: #bf616a;
+}
+.grey {
+    color: #c2c2c2;
+}
 .conditional {
     color: #a3be8c;
 }
 .execute {
     color: #ebcb8b;
+}
+.bool {
+    color: #d08770;
 }

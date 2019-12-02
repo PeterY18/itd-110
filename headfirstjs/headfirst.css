@@ -36,21 +36,21 @@ dt {
 
 
 
-.function { 
+.purple { 
     color: #b48ead;
 }
-.function2 {
+.red {
     color: #bf616a;
 }
 .grey {
     color: #c2c2c2;
 }
-.conditional {
+.green {
     color: #a3be8c;
 }
-.execute {
+.yellow {
     color: #ebcb8b;
 }
-.bool {
+.orange {
     color: #d08770;
 }

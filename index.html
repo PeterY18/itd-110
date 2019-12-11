@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <title>Peter's Home Page</title>
 <style>
+body {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 8vw 40vw 4 vw;
+} 
 h1 {
     text-align: center;
     color: #FFF;
@@ -18,8 +23,12 @@ a, a:visited {
 </style>
 </head>
 <body>
-<h1>Peter's Website</h1>
-<h2>Classwork</h2>
+<header>
+<nav>
+<a href="gdw/index.html">Getting Down With HTML/CSS Work</a>
+<a href="ciw/index.html">CIW Advanced HTML5 & CSS3 Specialist</a>
+</nav>
+
 <ul>
     <li><a href="gdw/index.html">Getting Down With HTML/CSS Work</a></li>
     <li><a href="ciw/index.html">CIW Advanced HTML5 & CSS3 Specialist
@@ -31,6 +40,7 @@ a, a:visited {
     <li><a href="gdw/webserver/index.html">Web server</a></li>
     <li><a href="makeup/index.html">Bubble Tea and Blush</a></li>
 </ul>
+</footer>
 <footer>
     <a href="http://validator.w3.org/check?uri=https://petery18.github.io/itd210/">
         <strong> HTML </strong> Valid! </a> |

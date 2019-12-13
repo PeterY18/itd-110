@@ -6,7 +6,7 @@
 <style>
 body {
     display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-columns: 50vw 50vw;
     grid-template-rows: 5vw 40vw 5vw;
 } 
 h1 {
@@ -27,7 +27,7 @@ footer {
     grid-area: 3 / 2 / 4 / 3;
     text-align: center;
 }
-.projects {
+.classwork {
     grid-area: 2 / 1 / 3 / 2;
 }
 .box {
@@ -36,16 +36,16 @@ footer {
     border: 5px solid #583770;
     color: #FFF;
     border-radius: 0.5vw;
+    grid-auto-rows: minmax(100px, auto);
+}
+.projects { 
+    gird-area: 2 / 2 / 3 / 3;
 }
 </style>
 </head>
 <body>
 <header class="box">
-<nav>
-<a href="gdw/index.html">Getting Down With HTML/CSS Work</a>
-<a href="ciw/index.html">CIW Advanced HTML5 & CSS3 Specialist</a>
-</nav>
-<div class="box projects">
+<div class="box classwork">
 <ul>
     <li><a href="gdw/index.html">Getting Down With HTML/CSS Work</a></li>
     <li><a href="ciw/index.html">CIW Advanced HTML5 & CSS3 Specialist
@@ -53,11 +53,13 @@ footer {
     <li><a href="headfirstjs/index.html">Head First Javascript</a></li>
 </ul>
 </div>
+<div class="box projects">
 <h2>Projects</h2>
 <ul>
     <li><a href="gdw/webserver/index.html">Web server</a></li>
     <li><a href="makeup/index.html">Bubble Tea and Blush</a></li>
 </ul>
+</div>
 <footer class="box footer">
     <a href="http://validator.w3.org/check?uri=https://petery18.github.io/itd210/">
         <strong> HTML </strong> Valid! </a> |

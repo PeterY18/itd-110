@@ -13,3 +13,10 @@ footer {
 h1 {
   font-family: arial, helvetica, geneva, sans-serif;
 }
+
+nav {
+    background: #d8d8d8;
+    font-weight: bold;
+    float: left;
+    height: 420px;
+}

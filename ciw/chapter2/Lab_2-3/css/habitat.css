@@ -8,6 +8,7 @@ body {
 footer {
   font-size: 80%;
   text-align: center;
+  clear: both;
 }
 
 h1 {
@@ -20,3 +21,9 @@ nav {
   float: left;
   height: 420px;
 }
+
+.floatright {
+  float: right;
+  clear: right;
+}
+   

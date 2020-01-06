@@ -49,3 +49,7 @@ nav {
   clear: right;
   margin: 10px;
 }
+ 
+header, nav, article, footer {
+   display: block;
+}

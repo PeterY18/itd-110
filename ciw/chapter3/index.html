@@ -27,7 +27,8 @@
   <dt>element:[first-of-type, last-of-type</dt>
   <dd>selects element that is the first or last in its parent</dd>
   <dt>element1~element2</dt>
-  <dd>Selects every instance of element2 that is preceded by an instance of element1</dd>
+  <dd>Selects every instance of element2 that is preceded by an instance of
+  element1. Selects every B that comes after element A</dd>
 </dl>
 <h2>Background and border properties</h2>
 <dl>
@@ -38,7 +39,9 @@
   <dd>positions background image relative to element's border, content, or
   padding</dd>
   <dt>background-size</dt>
-  <dd>size of background, default auto</dd>
+  <dd>size of background, default auto. contain means to take up the whole
+  screen. cover means to take up as much of the screen as possible while
+  maintaining aspect ratio.</dd>
   <dt>border-image</dt>
   <dd>border is now an image</dd>
   <dt>border-radius</dt>

@@ -73,5 +73,20 @@ section {
   box-shadow: 5px 5px 5px #888888;
 }
 
+#img-rotate {
+  -ms-transform: rotate(345deg); /* IE9 */
+  -webkit-transform: rotate(345deg); /* Chrome and Safari */
+  transform: rotate(345deg);
+}
 
+#video-rotate {
+  -ms-transform: rotate(15deg); /* IE9 */
+  -webkit-transform: rotate(15deg); /* Chrome and Safari */
+  transform: rotate(15deg);
+}
+
+#logo-rotate {
+-webkit-transform: rotateY(180deg); /* Chrome and Safari */
+transform: rotateY(180deg);
+}
 

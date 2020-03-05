@@ -25,5 +25,69 @@
   <dt>pogo-sticking</dt>
   <dd>occurs when a user must submit and resubmit a form until it validates</dd>
 </dl>
+<h2>input attributes and forms</h2>
+<ul>
+  <li>data submissions with input attributes will overide submission in form</li>
+  <li>non html5 browsers will use form tag instead</li>
+  <li>the following are attributes for input</li>
+  <li>form: specifies where the form is. input elements go here</li>
+  <li>formaction: specifies where to send user input when the form is
+    submitted. value is a url</li>
+  <li>formenctype: specifies how form input should be encrypted when submitted
+  to the server</li>
+  <li>formmethod: specifies http protocol to use</li>
+  <li>formnovalidate: directs form to not validate</li>
+  <li>formtarget: Specifies a name or keyword that indicates where to display
+    the response to the user after s/he has submitted the form. formtarget can
+  say to open response page in a tab</li>
+  <li>list: Refers to pre-defined options contained in a datalist</li>
+  <li>min max: defines min and max values as an input</li>
+  <li>maxlength: defines maximum length of input</li>
+  <li>multiple: user can enter more than one input into the field</li>
+  <li>pattern: checks input field against a regular expression</li>
+  <li>placeholder: provides a hint to the user as to what input is expected</li>
+  <li>required: use most fill this field out</li>
+</ul>
+<h2>buttons</h2>
+<ul>
+  <li>button type="button": creates a clickable button</li>
+  <li>button type="submit": creates a submit button to send data to server for
+  processing</li>
+  <li>button type="reset": creates a reset button, changes everything to
+    default value</li>
+  <li>buttons can have text and images placed within its tags. input buttons
+    can't</li>
+</ul>
+<h2>user input validation</h2>
+<p>user input validation ensures that user entered data is properly formatted
+and complete</p>
+<ul>
+  <li>it is best to validate on client and server side</li>
+  <li>inline validation occurs when each field of the form is validated as the
+  user completes before clicking the submit button</li>
+  <li>inline validation helped increase form completion rate by 22%</li>
+  <li>inline validation helped complete forms faster by 42%</li>
+  <li>premature error messages fustrate users</li>
+  <li>persistent messages of success helps users</li>
+  <li>success messages should be placed outside the form</li>
+  <li>inlucde inline validation whenever possible</li>
+  <li>can't determine if information is true or false</li>
+  <li>before html5, developers depended on javascript plugins to achieve
+    validation</li>
+  <li>required is not inline validation, it happens when the user submits the
+    form</li>
+</ul>
+<h2>pattern attribute</h2>
+<ul>
+  <li>pattern attributes use regex to make sure a proper email, date, or url is
+  entered</li>
+  <li>placeholder, pattern, required is a good way to ensure users enter the
+    right data</li>
+</ul>
+<h2>validating user input with javascript</h2>
+<h3>required js version</h3>
+<p>if not x: please enter a phone number</p>
+<h3>email js version</h3>
+<p>index and pos of @ symbol</p>
 </body>
 </html>
